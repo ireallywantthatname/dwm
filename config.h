@@ -139,7 +139,7 @@ static const Key keys[] = {
     SHCMD("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+")},
   {0, XF86XK_AudioLowerVolume, spawn,
     SHCMD("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-")},
-  {0, XF86XK_AudioLowerVolume, spawn,
+  {0, XF86XK_AudioMute, spawn,
     SHCMD("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle")},
 
   {0, XF86XK_AudioPrev, spawn, SHCMD("playerctl previous")},
